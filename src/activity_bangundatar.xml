@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B21212"
+    tools:context="com.project.mif.calculateproj.bangundatar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Klik Dibawah Ini!"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menghitung Luas Segitiga"
+        android:id="@+id/btnLsegitiga"
+        android:onClick="LsegitigaKlik"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menghitung Luas Persegi Panjang"
+        android:id="@+id/btnLpanjang"
+        android:onClick="Lpanjang" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/btnback"
+        android:onClick="back" />
+
+
+</LinearLayout>
